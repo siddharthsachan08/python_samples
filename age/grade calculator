@@ -1,0 +1,24 @@
+ddd = input("are you a student? y/n")
+
+
+
+if ddd == 'y':
+  s1 = input("what is student 1 name")
+  s11 = int(input("what is student 1 age"))
+  s111 = int(input("what is student 1 grade"))
+  s2 = input("what is student 2 name")
+  s22 = int(input("what is student 2 age"))
+  s222 = int(input("what is student 2 grade"))
+  s3 = input("what is student 3 name")
+  s33 = int(input("what is student 3 age"))
+  s333 = int(input("what is student 3 grade"))
+  print("the avrage age is",(s11+s22+s33)/3)
+  print("the avrage grade is",(s111+s222+s333)/3)
+else:
+  s1 = input("what is person 1 name")
+  s11 = int(input("what is person 1 age"))
+  s2 = input("what is person 2 name")
+  s22 = int(input("what is person 2 age"))
+  s3 = input("what is person 3 name")
+  s33 = int(input("what is person 3 age"))
+  print("the avrage age is",(s11+s22+s33)/3)
