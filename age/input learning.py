@@ -1,0 +1,8 @@
+var = input("what is your name")
+print("Hello "+var.capitalize()+"!")
+rrr = input("what is your favriote show")
+print(rrr.upper()+"!")
+qqq = input("what is your fav food")
+print("I like "+qqq+"too!")
+www = int(input("enter your age"))
+print("next year you will be ",(www + 1))
